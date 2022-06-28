@@ -1,0 +1,385 @@
+* {
+
+    font-family: 'Carter One';
+}
+
+body{
+    display: grid;
+    align-items: center;
+    
+
+
+    
+
+}
+
+header {
+
+
+display: grid;
+/* grid-template-columns: repeat(auto-fill, minmax(30rem, 1fr)); */
+grid-template-columns: repeat(2,1fr);
+align-items: center;
+height: 50px;
+border-radius: 12px;
+background-color: rgba(59, 43, 43, 0.038);
+box-shadow: 5px 5px 5px 5px rgb(168, 168, 168);
+margin-bottom: 20px;
+width: 100%;
+align-items: center;
+position: relative;
+border: 3px solid #73AD21;
+
+}
+
+.log{
+
+ 
+display: grid;
+
+
+
+}
+
+.logo img{
+
+width: 8rem;
+
+
+}
+
+
+.menu{
+  
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    gap: 8px;
+    margin: auto;
+
+}
+
+
+.menu a{
+
+    display: grid;
+    text-decoration: none;
+    text-align: center;
+    color: black;
+    font-size: 1vw;
+
+}
+
+
+
+
+
+
+
+
+.nosotros{
+
+display: grid;
+margin-top: 50px;
+margin-bottom: 80px;
+
+}
+
+.nosotros h2{
+   
+display: grid;
+text-align: center;
+margin-bottom: 50px;
+
+}
+
+
+.desc{
+display: grid;
+width: 70%;
+margin: auto;
+
+}
+
+.desc p{
+text-align: left;
+    
+
+}
+
+
+
+
+.nos{
+
+display: grid;
+grid-template-columns: repeat(auto-fill, minmax(30rem, 1fr));
+
+}
+
+
+.intro iframe{
+
+    border-radius: 12px;
+    display: grid;
+    margin: auto;
+    width:80%;
+    height: 300px;
+
+}
+
+
+
+
+
+
+
+/*Blog*/
+
+
+
+
+.blog{
+
+    display: grid;
+    margin-top: 50px;
+    
+    }
+    
+    .blog h2{
+       
+    display: grid;
+    text-align: center;
+    margin-bottom: 50px;
+    
+    }
+    
+    
+    .descblog{
+    display: grid;
+    width: 70%;
+    margin: auto;
+    
+    }
+
+
+    .descblog h3{
+
+text-align: center;
+
+    }
+    
+    .desc p{
+    text-align: left;
+        
+    
+    }
+    
+    
+    
+    
+    .bl{
+    
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(30rem, 1fr));
+    
+    }
+    
+
+.imgblog{
+
+
+    width: 500px;
+height: 500px;
+display: grid;
+justify-self: center;
+}
+
+    
+    .imgblog img{
+    
+        border-radius: 12px;
+        display: grid;
+        margin: auto; 
+        width: 500px;
+        height: 500px;
+object-fit: cover;
+    
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*Servicios*/
+
+
+.servicios{
+ margin: auto;
+width: 100%;
+display: grid;
+align-items: start;
+border-radius: 12px;
+background-color: rgba(59, 43, 43, 0.038);
+box-shadow: 10px 10px 10px 10px rgb(168, 168, 168);
+
+}
+
+.servicios h2, p{
+
+text-align: center;
+
+}
+
+
+.cards {
+
+display: grid;
+
+padding: 20px;
+justify-items: center;
+grid-template-columns: repeat(auto-fill, minmax(17rem, 1fr));
+gap: 30px;
+
+
+}
+
+.card{
+
+display: grid;
+width: 280px;
+justify-items: center;
+border-radius: 15px;
+padding: 10px;
+border: solid rgba(48, 55, 48, 0.408);
+box-shadow: 5px 5px 5px 5px rgb(168, 168, 168);
+margin-bottom: 20px;
+text-align: center;
+}
+
+.card a{
+
+text-decoration: none;
+color: aqua;
+
+}
+
+
+
+.card:hover {
+
+    transform: translateY(10%);
+    height: 400px;
+
+
+}
+
+
+
+
+
+.imgcard {
+width: 200px;
+height: 200px;
+
+}
+
+.imgcard img{
+  
+width: 200px;
+height: 200px;
+object-fit: cover;
+
+}
+
+
+
+.contacto form{
+
+display: grid;
+
+}
+
+
+
+
+
+
+.formulario {
+
+    display: grid;
+
+    padding: 20px;
+    justify-items: center;
+    grid-template-columns: repeat(auto-fill, minmax(30rem, 1fr));
+    gap: 30px;
+    margin-top: 70px;
+
+background-color: rgba(216, 222, 220, 0.216);
+
+}
+
+.contacto {
+    text-align: center;
+    display: grid;
+    width: 400px;
+border-radius: 12px;
+border: solid transparent;
+box-shadow: 5px 5px 5px 5px rgb(168, 168, 168);
+background-color: rgba(58, 84, 76, 0.835);
+
+}
+
+.formcont div input , textarea{
+
+width: 80%;
+padding: 10px;
+margin-bottom: 20px;
+border-radius: 12px;
+text-align: center;
+
+}
+
+.btnc {
+
+border-radius: 12px;
+width: 80px;
+margin: auto;
+margin-bottom: 30px;
+
+}
+
+
+.datosJungle{
+
+
+    margin: auto;
+}
+
+
+footer{
+margin-top: 100px;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    background-color: rgba(185, 186, 186, 0.665);
+    padding: 20px;
+
+}
+
+
+.title {
+
+text-align: right;
+
+}
